@@ -6,7 +6,7 @@
 /*   By: geonwkim <geonwkim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 23:15:40 by geonwkim          #+#    #+#             */
-/*   Updated: 2024/11/25 23:21:54 by geonwkim         ###   ########.fr       */
+/*   Updated: 2024/11/25 23:27:20 by geonwkim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ void Harl::error(void)
 	std::cout << "[WARNING] I think I deserve to have some extra bacon for free. I’ve been coming for years whereas you started working here since last month." << std::endl;
 }
 
-void Harl::complain(const std::string& level)
+void Harl::complain(std::string level)
 {
 	for (size_t i = 0; i < 4; i++) {
 		if (levels[i] == level) {
