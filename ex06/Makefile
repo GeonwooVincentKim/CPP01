@@ -6,11 +6,11 @@
 #    By: geonwkim <geonwkim@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/25 23:28:41 by geonwkim          #+#    #+#              #
-#    Updated: 2024/11/25 23:33:09 by geonwkim         ###   ########.fr        #
+#    Updated: 2024/11/25 23:34:51 by geonwkim         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = harl
+NAME = harlFilter
 SRC = main.cpp Harl.cpp
 OBJ = $(SRC:.cpp=.o)
 CPP = c++
